@@ -12,12 +12,11 @@ body{
             padding-bottom: 150px;
     }
     h1{
-        font-size: 60px;
-        margin-top: 3%;
+        font-size: 50px;
         margin-left: 5%;
     }
     h2{
-        font-size: 40px;
+        font-size: 30px;
     }
 p{
     color: dimgray;
@@ -51,11 +50,17 @@ footer{
     text-align: center;
 }
 .box{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
+    background-color: white;
+    box-shadow: 10px 10px 50px #808080;
+    border-radius: 10px;
     border: solid 5 px;
-    border-image-slice: 1;
     height: 70%;
+    width: 40%;
+    border-left: 10px solid lightcoral;
+    border-top: 7px solid lightcoral;
+    border-image: linear-gradient( lightcoral, cyan) ;
+    border-image-slice: 1;
+    
 }
 .middle-part{
     background-image: url(images/dream-bg.png);
@@ -64,6 +69,7 @@ footer{
 }
 .bottom-part{
     background-image: url(images/exp-bg.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-position-x: left;
 
